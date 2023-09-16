@@ -30,7 +30,7 @@ const background = new Sprite({
         y: 0
     },
     color: 'red',
-    imagesource: './img/FreeKnight_v1/Colour2/NoOutline/120x80_PNGSheets/_Idle.png',
+    imagesource: './blob/main/fighter_v2/img/FreeKnight_v1/Colour2/NoOutline/120x80_PNGSheets/_Idle.png',
     framesMax: 10,
     scale: 4.0,
     offset: {
@@ -39,35 +39,35 @@ const background = new Sprite({
     },
     sprites:{
         idle:{
-            imagesource: './img/FreeKnight_v1/Colour2/NoOutline/120x80_PNGSheets/_Idle.png',
+            imagesource: './blob/main/fighter_v2/img/FreeKnight_v1/Colour2/NoOutline/120x80_PNGSheets/_Idle.png',
             framesMax: 10
         },
         run:{
-            imagesource: './img/FreeKnight_v1/Colour2/NoOutline/120x80_PNGSheets/_Run.png',
+            imagesource: './blob/main/fighter_v2/img/FreeKnight_v1/Colour2/NoOutline/120x80_PNGSheets/_Run.png',
             framesMax: 10
         },
         jump:{
-            imagesource: './img/FreeKnight_v1/Colour2/NoOutline/120x80_PNGSheets/_Jump.png',
+            imagesource: './blob/main/fighter_v2/img/FreeKnight_v1/Colour2/NoOutline/120x80_PNGSheets/_Jump.png',
             framesMax: 3
         },
         fall:{
-            imagesource: './img/FreeKnight_v1/Colour2/NoOutline/120x80_PNGSheets/_Fall.png',
+            imagesource: './blob/main/fighter_v2/img/FreeKnight_v1/Colour2/NoOutline/120x80_PNGSheets/_Fall.png',
             framesMax: 3
         },
         attack1:{
-            imagesource: './img/FreeKnight_v1/Colour2/NoOutline/120x80_PNGSheets/_Attack.png',
+            imagesource: './blob/main/fighter_v2/img/FreeKnight_v1/Colour2/NoOutline/120x80_PNGSheets/_Attack.png',
             framesMax: 4  //attack_ 2:6
         },
         attack2:{
-            imagesource: './img/FreeKnight_v1/Colour2/NoOutline/120x80_PNGSheets/_AttackComboNoMovement.png',
+            imagesource: './blob/main/fighter_v2/img/FreeKnight_v1/Colour2/NoOutline/120x80_PNGSheets/_AttackComboNoMovement.png',
             framesMax: 10  //attack_ 2:6
         },
         takehit:{
-            imagesource: './img/FreeKnight_v1/Colour2/NoOutline/120x80_PNGSheets/_Hit.png',
+            imagesource: './blob/main/fighter_v2/img/FreeKnight_v1/Colour2/NoOutline/120x80_PNGSheets/_Hit.png',
             framesMax: 1  
         },
         death:{
-            imagesource: './img/FreeKnight_v1/Colour2/NoOutline/120x80_PNGSheets/_Death.png',
+            imagesource: './blob/main/fighter_v2/img/FreeKnight_v1/Colour2/NoOutline/120x80_PNGSheets/_Death.png',
             framesMax: 10 
         }
     },
@@ -107,35 +107,35 @@ const background = new Sprite({
     },
     sprites:{
         idle:{
-            imagesource: './img/martio_v1/idle.png',
+            imagesource: '.blob/main/fighter_v2/img/martio_v1/idle.png',
             framesMax: 10
         },
         run:{
-            imagesource: './img/martio_v1/run.png',
+            imagesource: '.blob/main/fighter_v2/img/martio_v1/run.png',
             framesMax: 8
         },
         jump:{
-            imagesource: './img/martio_v1/jump.png',
+            imagesource: '.blob/main/fighter_v2/img/martio_v1/jump.png',
             framesMax: 3
         },
         fall:{
-            imagesource: './img/martio_v1/fall.png',
+            imagesource: '.blob/main/fighter_v2/img/martio_v1/fall.png',
             framesMax: 3
         },
         attack1:{
-            imagesource: './img/martio_v1/attack3.png',
+            imagesource: '.blob/main/fighter_v2/img/martio_v1/attack3.png',
             framesMax: 9  
         },
         attack2:{
-            imagesource: './img/martio_v1/attack2.png',
+            imagesource: '.blob/main/fighter_v2/img/martio_v1/attack2.png',
             framesMax: 6  
         },
         takehit:{
-            imagesource: './img/martio_v1/take_hit.png',
+            imagesource: 'blob/main/fighter_v2/img/martio_v1/take_hit.png',
             framesMax: 3  
         },
         death:{
-            imagesource: './img/martio_v1/death2.png',
+            imagesource: 'blob/main/fighter_v2/img/martio_v1/death2.png',
             framesMax: 8
         }
     },
