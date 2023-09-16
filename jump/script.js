@@ -247,7 +247,7 @@ function mid(){
 
 
 function hard(){
-    let move_speed = 10, grativy = 0.8;
+    let move_speed = 10, grativy = 0.6;
     function move(){
         if(game_state != 'Play') return;
 
