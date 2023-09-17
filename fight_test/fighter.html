@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-euuiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--網頁icon skiplink rel="icon" type="">-->
+    <title>不講武德: 楨人快打</title>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+</style>
+<link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body background="./img/star.jpg"
+    <!--large container-->
+    <div id = "wrapper">
+        <!--mid container(health)-->
+        <div style="position: absolute; display: flex; width:100%; padding: 20px">
+            <!--楨照片-->
+            <div>
+                <img class="lily" src="./img/li.png"/>
+            </div>
+            <!--p1 health-->
+            <div style="border-style:solid;border-color:blue;border-width:  5px;position: relative; height: 40px; width: 100%; display: flex; justify-content: flex-end">
+                <div  style="height: 40px; width: 100%"></div>
+                <div id="p1_health" style="position: absolute; background: red; top: 0; right: 0; bottom: 0; width:100%"></div>
+            </div>
+
+            <!--time-->
+            <div id="timer" style="height: 60px; width: 60px; 
+            flex-shrink: 0; display: flex; 
+            align-items: center;justify-content: center;
+            color: blue; font-family: fantasy;font-size: 42px;
+            border-radius: 50%; overflow: hidden">100</div>
+            
+            <!--p2 health-->
+            <div style="border-style:solid;border-color:blue;border-width:  5px;position: relative; height: 40px; width: 100%">
+                <div  style="height: 40px; width: 100%"></div>
+                <div id="p2_health" style="position: absolute; background: red; top: 0; right: 0; bottom: 0; left: 0;"></div>
+            </div>
+            <!--恩照片-->
+            <div>
+                <img class="td" src="./img/td.png"/>
+            </div>
+        </div> 
+        <div id="display_result" style="position: absolute; 
+        color: white;  
+        align-items: center; 
+        justify-content: center;
+        background-image: url('./img/background.png');
+        top: 0;
+        bottom:0;
+        left:0;
+        right:0;
+        font-size: 50px;
+        color: red;
+        font-weight: bolder;
+        font-family: DFKai-sb;
+        display: none"
+        >
+        平手
+        </div> 
+        <canvas></canvas>
+        
+    </div>
+    <div id="instruct">
+        <span><span>W</span><span>A</span><span>D</span>P1: 跳、左、右</span>
+        <span><span>space</span>P1: 輕攻擊</span>
+        <span><span>B</span>P1: 重攻擊</span>
+        <span><span>F5</span>重新開始</span>
+    </div>
+    <div id="instruct">
+        <span><span>&uarr;</span><span>&larr;</span><span>&rarr;</span>P2: 跳、左、右</span>
+        <span><span>K</span>P2: 輕攻擊</span>
+        <span><span>J</span>P2: 重攻擊</span>
+        <span style="color:red;font-size:24px;font-weight:bolder">若裝置螢幕大，建議ctrl+滑鼠滾輪放大</span>
+    </div>
+    <div style="color: red;font-weight: bolder;margin-left: 40px;">
+        
+    </div>
+    
+    <script src="classes.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
