@@ -30,7 +30,7 @@ const background = new Sprite({
         y: 0
     },
     color: 'red',
-    imagesource: './img/_Idle.png',
+    imagesource: 'https://raw.githubusercontent.com/DCN2001/dcn2001.github.io/main/fight_mod/_Idle.png',
     framesMax: 10,
     scale: 4.0,
     offset: {
@@ -39,35 +39,35 @@ const background = new Sprite({
     },
     sprites:{
         idle:{
-            imagesource: './img/_Idle.png',
+            imagesource: 'https://raw.githubusercontent.com/DCN2001/dcn2001.github.io/main/fight_mod/_Idle.png',
             framesMax: 10
         },
         run:{
-            imagesource: './img/_Run.png',
+            imagesource: 'https://raw.githubusercontent.com/DCN2001/dcn2001.github.io/main/fight_mod/_Run.png',
             framesMax: 10
         },
         jump:{
-            imagesource: './img/_Jump.png',
+            imagesource: 'https://raw.githubusercontent.com/DCN2001/dcn2001.github.io/main/fight_mod/_Jump.png',
             framesMax: 3
         },
         fall:{
-            imagesource: './img/_Fall.png',
+            imagesource: 'https://raw.githubusercontent.com/DCN2001/dcn2001.github.io/main/fight_mod/_Fall.png',
             framesMax: 3
         },
         attack1:{
-            imagesource: './img/_Attack.png',
+            imagesource: 'https://raw.githubusercontent.com/DCN2001/dcn2001.github.io/main/fight_mod/_Attack.png',
             framesMax: 4  //attack_ 2:6
         },
         attack2:{
-            imagesource: './img/_AttackComboNoMovement.png',
+            imagesource: 'https://raw.githubusercontent.com/DCN2001/dcn2001.github.io/main/fight_mod/_AttackComboNoMovement.png',
             framesMax: 10  //attack_ 2:6
         },
         takehit:{
-            imagesource: './img/_Hit.png',
+            imagesource: '.https://raw.githubusercontent.com/DCN2001/dcn2001.github.io/main/fight_mod/_Hit.png',
             framesMax: 1  
         },
         death:{
-            imagesource: './img/_Death.png',
+            imagesource: 'https://raw.githubusercontent.com/DCN2001/dcn2001.github.io/main/fight_mod/_Death.png',
             framesMax: 10 
         }
     },
