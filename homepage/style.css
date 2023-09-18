@@ -79,8 +79,8 @@
 
 .ter:after{
     content:"";
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     position: absolute;
     background-image: url('./img/kid.png');
